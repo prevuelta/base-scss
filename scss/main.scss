@@ -1,14 +1,20 @@
-// lib
+// Lib
+@import
+'lib/include-media';
 
-// base
+// Base
 @import
 'base/vars',
 'base/mixins',
-'base/colors',
+'base/styles',
 'base/measure',
 'base/helpers';
 
-// structure
+// Content
+@import
+'content/type';
+
+// Structure
 @import
 'structure/grid',
 'structure/header',
@@ -16,14 +22,11 @@
 'structure/footer',
 'structure/nav';
 
-
-// content
+// Elements
 @import
-'content/type';
+'elements/basic',
+'elements/forms';
 
-// ui
+// Pages
 @import
-'ui/basic',
-'ui/forms';
-
-// pages
+'pages/index';
