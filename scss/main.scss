@@ -16,16 +16,16 @@
 
 // Structure
 @import
+'structure/layout',
 'structure/grid',
 'structure/header',
-'structure/body',
 'structure/footer',
 'structure/nav';
 
-// Elements
+// UI
 @import
-'elements/basic',
-'elements/forms';
+'ui/basic',
+'ui/forms';
 
 // Pages
 @import
